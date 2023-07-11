@@ -244,11 +244,6 @@ h3 {
 
 
 /* -----------------------------Work---------------------------- */
-
-.work {
-    /* background-color: var(--dark-blue-color); */
-}
-
 .worK .container .title h1 {
     color: var(--dark-blue-color) !important;
 }
@@ -283,11 +278,6 @@ h3 {
     transition: all 0.4s ease-in-out;
 }
 
-#mock1 {
-    /* opacity: 0 !important; */
-}
-
-
 /* -----------------------------mockups---------------------------- */
 
 .mockups {
@@ -316,15 +306,6 @@ h3 {
 
 
 /* -----------------------------Footer---------------------------- */
-
-footer {
-    /* background: url('/assets/imgs/footer-bg.png');
-    background-position: bottom center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* padding: 200px 0; */
-    /* height: 100vh; */
-}
 
 footer form .form-control {
     border-radius: 0;
