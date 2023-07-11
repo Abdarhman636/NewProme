@@ -19,6 +19,7 @@
 </head>
 
 <body>
+
     <!-- --------------------------------Header------------------------------------------ -->
 
     <header>
@@ -29,18 +30,28 @@
                     id="navbarTogglerDemo03">
                     <ul class="navbar-nav justify-content-center text-center menu">
                         <li class="nav-item">
-                            <a class="nav-link text-md-black fw-bold" href="index.html" tabindex="-1">HOME</a>
+                            <a class="nav-link text-md-black fw-bold" href="#contact" tabindex="-1">HOME</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link text-md-black fw-bold " href="#aboutus">ABOUT US</a>
+                            <a class="nav-link text-md-black fw-bold " href="pages/about-us.html">ABOUT US</a>
                         </li>
                         <li class="nav-item pe-3">
-                            <a class="nav-link text-md-black fw-bold" aria-current="page" href="#services">SERVICES</a>
+                            <a class="nav-link text-md-black fw-bold" aria-current="page"
+                                href="pages/contact.html">SERVICES</a>
                         </li>
                         <li class="nav-item" id="menubtn">
-                            <a class="nav-link text-md-black fw-bold" aria-current="page" href="#work">WORK</a>
+                            <a class="nav-link text-md-black fw-bold" aria-current="page" href="#food-menu">WORK</a>
                         </li>
                     </ul>
+                    <!-- 
+                    <div class="d-md-none">
+                        <div class="justify-content-center justify-content-md-center navbar-social d-flex">
+                            <li><i class="bi bi-envelope-fill"></i></li>
+                            <li> <i class="bi bi-twitter"></i></li>
+                            <li><i class="bi bi-instagram"></i></li>
+                            <li><a id="contact-btn" href="#">Contact Us</a></li>
+                        </div>
+                    </div> -->
                 </div>
 
 
@@ -50,18 +61,10 @@
                 </div>
 
                 <div class="justify-content-end navbar-social d-none d-md-flex">
-                    <a href="mailto:contact@promoe.com.sa" target="blank">
-                        <li><i class="text-white fs-5 px-2 bi bi-envelope-fill"></i></li>
-                    </a>
-                    <a href="https://twitter.com/promoefficiency?lang=ar" target="blank">
-                        <li><i class="text-white fs-5 px-2 bi bi-twitter"></i></li>
-                    </a>
-                    <a href="https://www.instagram.com/promoefficiency/" target="blank">
-                        <li><i class="text-white fs-5 px-2 bi bi-instagram"></i></li>
-                    </a>
-                    <li><a class="ms-4 px-3 py-2 fw-bold" id="contact-btn" href="#contact">Contact Us</a></li>
-                    <li><a class="ms-2 px-3 py-2 fw-bold" id="contact-btn"
-                            href="pages/Arabic/arabic-index.html">العربية</a></li>
+                    <li><i class="bi bi-envelope-fill"></i></li>
+                    <li><i class="px-3 bi bi-twitter"></i></li>
+                    <li><i class="bi bi-instagram"></i></li>
+                    <li><a class="ms-4 px-3 py-2 fw-bold" id="contact-btn" href="#">Contact Us</a></li>
                 </div>
                 <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
@@ -74,47 +77,51 @@
 
     <!-- --------------------------------Hero------------------------------------------ -->
 
-    <section id="hero" class="p-2 py-5 py-lg-5 bg-white overflow-hidden">
-        <div class="layer layer_1"></div>
-        <div class="layer layer_2"></div>
-        <div class="layer layer_3"></div>
-        <div class="layer layer_4"></div>
-        <div class="layer layer_5 animate__animated animate__shakeX animate__infinite"></div>
+    <section class="hero d-flex justify-content-center align-items-center">
+        <div>
+            <img src="assets/imgs/Plrallex/1.png" id='sun' alt="">
+            <img src="assets/imgs/Plrallex/2.png" id='sahab' alt="">
+            <img src="assets/imgs/Plrallex/4.png" id='prt3' alt="">
+            <img src="assets/imgs/Plrallex/3.png" id='prt4' alt="">
+            <h1 class='fw-bold display-4 position-relative' id="hero-text">Your <span class="fw-bold">HIKE</span> to
+                <span class="fw-bold">PEAK!</span></h1>
+            <img src="assets/imgs/Plrallex/5.png" id='prt5' alt="">
+            <img src="assets/imgs/Plrallex/55.png" id='prt6' alt="">
+            <img src="assets/imgs/Plrallex/7.png" id='prt7' alt="">
+            <img src="assets/imgs/Plrallex/8.png" id='prt8' alt="">
+            <img src="assets/imgs/Plrallex/9.png" id='prt9' alt="">
+            <img src="assets/imgs/Plrallex/99.png" id='prt10' alt="">
+        </div>
     </section>
 
-
     <!-- --------------------------------About Us------------------------------------------ -->
-    <section class="about-us py-5" id="aboutus">
+    <section class="about-us py-5">
         <!-- <img id="rotate" src="assets/imgs/routate.png" alt=""> -->
         <div
             class="about-content container py-5 d-flex flex-column flex-md-row align-items-center justify-content-between">
             <div class="about-img text-center mt-5 mt-md-0 order-md-1 order-2 mb-md-0 w-100">
                 <img src="assets/imgs/abouts-us-img.png" alt="">
             </div>
-            <div class="about-text mb-md-0 order-1 order-md-2 text-md-start">
-                <h1 class="display-5 text-white fw-bold">About Us</h1>
-                <p class="mb-3 px-md-0">In an era where marketing is the battleground for brands today, Promotion
-                    Efﬁciency is a platform of skilled Saudis who are equipped with ambition and creativity at the ﬁelds
-                    of marketing and advertisement, which makes them create unusual,
-                    innovative, and out-of-the-box marketing solutions that outperform current conventional methods. As
-                    we are a 100% owned and run Saudi establishment which specializes in advertising, we understand the
-                    surrounding community, their needs,
-                    and their desires. This allows us to help our local clients grow their businesses as well as
-                    international companies who are expanding to Saudi Arabia.</p>
-                <!-- <a class="fs-4 px-3 py-2 fw-bold" href="#">Contact Us</a> -->
+            <div class="about-text mb-3 mb-md-0 order-1 order-md-2 text-md-start text-center">
+                <h1 class="mb-4 display-5  text-white fw-bold">About Us</h1>
+                <p class="mb-5 px-3 px-md-0">In an era where marketing is the battleground for brands today, Promotion
+                    Efficiency is a platform of skilled Saudis who are equipped with ambition and creativity in the
+                    fields of marketing and advertisement, which makes them create unusual,
+                    innovative and out-of-the-box marketing. innovative and out-of-the-box marketing.</p>
+                <a class="fs-4 px-3 py-2 fw-bold" id="contact-btn-white" href="#">Contact Us</a>
             </div>
         </div>
     </section>
 
     <!-- --------------------------------Services------------------------------------------ -->
 
-    <section class="services py-5" id="services">
-        <img id="rotate" class="rotate1" src="assets/imgs/routate2.png" alt="">
+    <section class="services py-5">
+        <img id="rotate" class="rotate1" src="assets/imgs/routate.png" alt="">
         <div class="container py-5">
             <div class="pb-4 title text-center">
-                <img src="assets/imgs/devider-black.png" alt="">
+                <img src="assets/imgs/devider-white.png" alt="">
                 <h1 class="text-white display-4 py-1 fw-bold">Our Services</h1>
-                <p class="text-white fs-4">THAT YOU'LL ENJOY</p>
+                <p class="text-white">THAT YOU'LL ENJOY</p>
             </div>
 
             <div class="servicr-boxs w-75 m-auto">
@@ -122,49 +129,45 @@
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
                         <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
-                        <p>we guarantee With the quality of the team’s work, your commercial identities and their
-                            applications with creative ideas out of the box</p>
-                        <a href="pages/Desiging.html" id="know-more">Know More</a>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
+                        <a href="#" id="know-more">Know More</a>
                     </div>
 
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
-                        <h3 class="pb-2 pt-4 fw-bold">Production</h3>
-                        <p>There is no limit to your aspirations. With our production team, they will be able to
-                            implement your ideas with high quality</p>
-                        <a href="pages/production.html" id="know-more">Know More</a>
+                        <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
+                        <a href="#" id="know-more">Know More</a>
                     </div>
 
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
-                        <h3 class="pb-2 pt-4 fw-bold">SMAM</h3>
-                        <p>We are here to develop and effectively manage your digital presence with content and
-                            responses around the clock</p>
-                        <a href="pages/SMM.html" id="know-more">Know More</a>
+                        <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
+                        <a href="#" id="know-more">Know More</a>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
-                        <h3 class="pb-2 pt-4 fw-bold">Promotional Campaigns</h3>
-                        <p>Promotional campaigns, through which we aim to reach the aspirations of our customers</p>
+                        <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
                         <a href="#" id="know-more">Know More</a>
                     </div>
 
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
-                        <h3 class="pb-2 pt-4 fw-bold">IT Servcies</h3>
-                        <p>Search engines and websites with creative designs we care about in the IT department</p>
+                        <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
                         <a href="#" id="know-more">Know More</a>
                     </div>
 
                     <div class="box text-center py-5 m-4 col">
                         <i class="fas fa-pencil-ruler"></i>
-                        <h3 class="pb-2 pt-4 fw-bold">Ads Screens</h3>
-                        <p>In addition to your digital presence, it does not mind spreading awareness through our
-                            advertising screens on various locations</p>
-                        <a href="pages/AdScreens.html" id="know-more">Know More</a>
+                        <h3 class="pb-2 pt-4 fw-bold">Designing</h3>
+                        <p>Out of the box graphic designs to visualize your ideas, goals and messages.</p>
+                        <a href="#" id="know-more">Know More</a>
                     </div>
                 </div>
             </div>
@@ -172,35 +175,24 @@
         </div>
     </section>
 
-
     <!-- --------------------------------statistics ------------------------------------------ -->
 
     <section class="statistics pb-5 pt-4 position-relative">
-        <img id="rotate" class="d-none d-md-block rotate2" src="assets/imgs/routate2.png" alt="">
+        <img id="rotate" class="d-none d-md-block rotate2" src="assets/imgs/routate.png" alt="">
         <div class="container flex-column flex-md-row py-5 d-flex">
             <div class="text-center pb-4 justify-content-between flex-grow-1">
-                <h2 id="pCounter" class="text-white fw-bold">270</h2>
-                <p class="fw-bold fs-5">Clients</p>
+                <h2 id="pCounter" class="text-white fw-bold">145</h2>
+                <p class="fw-bold fs-5">Project</p>
             </div>
 
             <div class="text-center pb-4 justify-content-between flex-grow-1">
-                <h2 id="pCounter" class="text-white fw-bold">394</h2>
-                <p class="fw-bold fs-5">Photography<br> Projects</p>
+                <h2 id="pCounter" class="text-white fw-bold">145</h2>
+                <p class="fw-bold fs-5">Project</p>
             </div>
 
             <div class="text-center pb-4 justify-content-between flex-grow-1">
-                <h2 id="pCounter" class="text-white fw-bold">42</h2>
-                <p class="fw-bold fs-5">Business<br> Identities</p>
-            </div>
-
-            <div class="text-center pb-4 justify-content-between flex-grow-1">
-                <h2 id="pCounter" class="text-white fw-bold">16</h2>
-                <p class="fw-bold fs-5">Projects<br> Completed</p>
-            </div>
-
-            <div class="text-center pb-4 justify-content-between flex-grow-1">
-                <h2 id="pCounter" class="text-white fw-bold">140</h2>
-                <p class="fw-bold fs-5">Account <br> Management Plans</p>
+                <h2 id="pCounter" class="text-white fw-bold">145</h2>
+                <p class="fw-bold fs-5">Project</p>
             </div>
 
         </div>
@@ -208,8 +200,19 @@
 
     <!-- --------------------------------Work ------------------------------------------ -->
 
-    <section class="work " id="work">
+    <section class="work  ">
         <div class="">
+            <!-- <div class="title pb-3 text-center">
+                <img src="assets/imgs/colored-devider.png" alt="">
+                <h1 class="pt-3 display-4 fw-bold">Our Work</h1>
+                <p>THAT YOU'LL ENJOY</p>
+            </div> -->
+
+            <!-- <div class="work-tabs pt-4 d-flex justify-content-center align-items-center">
+                <li class="active px-3 py-2"><a class="active fw-bold" href="#">Design</a></li>
+                <li class="fw-bold px-3"><a href="#">Branding</a></li>
+                <li><a class="fw-bold" href="#">Photography</a></li>
+            </div> -->
 
             <div class="work-imgs p-3">
                 <div class="row mb-4">
@@ -243,17 +246,33 @@
         </div>
     </section>
 
-    <!-- --------------------------------Form ------------------------------------------ -->
+    <!-- -------------------------------- mockups ------------------------------------------ -->
+    <!-- <section class="mockups position-relative py-5">
+        <div class="container  ">
+            <div class="mockups-text">
+                <h1 class="text-white fw-bold display-1">We Will <br> Make Your <br> Profile <br>Shine</h1>
+            </div>
+            <div class="mockups-imgs">
+                <img src="assets/imgs/mockup/2.png" id='mock2' alt="">
+                <img src="assets/imgs/mockup/3.png" id='mock3' alt="">
+                <img src="assets/imgs/mockup/4.png" id='mock4' alt="">
+                <img src="assets/imgs/mockup/1.png" id='mock1' alt="">
+            </div>
+        </div>
+    </section> -->
 
-    <section class="contact pb-5 pt-5 w-75 m-auto" id="contact">
-        <div class="container pb-5 pt-5">
-            <div class="pb-4 title text-center">
-                <img src="assets/imgs/devider-black.png" alt="">
-                <h1 class="display-4 py-1 fw-bold">Ready For Your FUTURE?</h1>
-                <p>Contact Us</p>
+
+    <!-- -------------------------------- Footer ------------------------------------------ -->
+    <footer class="py-5 position-relative">
+        <img src="assets/imgs/Plrallex/2.png" id='sahab' alt="">
+        <div class="container">
+            <div class="footer-title text-center">
+                <img src="assets/imgs/footer-logo.png" class="pt-5 mb-4" id='logo' alt="">
+                <h2 class="fw-bold">Your <span class="fw-bold">HIKE</span> to <span class="fw-bold">PEAK!</h1>
+
             </div>
 
-            <form class="pt-3 m-auto">
+            <form class="py-5 w-50 m-auto">
                 <div class="py-2">
                     <input type="text" placeholder="Full Name" class="form-control" id="exampleInputfName">
                 </div>
@@ -267,67 +286,56 @@
                     <input type="email" placeholder="Full Name" class="form-control" id="exampleInputEmail1">
                 </div>
                 <div class="text-center">
-                    <button id="contact-btn" type="submit" class="w-100 btn fw-bold px-5 py-2">Submit</button>
+                    <button type="submit" class="btn fw-bold px-5 py-2">Submit</button>
                 </div>
             </form>
-        </div>
-    </section>
 
-    <!-- --------------------------------Map ------------------------------------------ -->
-
-    <section id="map" class="text-center pb-5 px-md-5">
-        <iframe class="pb-4 w-75" src="https://snazzymaps.com/embed/281438" height="600px"
-            style="border:none;"></iframe>
-    </section>
-
-    <!-- --------------------------------Footer ------------------------------------------ -->
-
-
-    <footer class="py-3">
-        <div class="container py-5 text-center">
-            <img src="assets/imgs/white-logo.png" alt="">
-            <h3 class="pt-4 ">Your Hike to <span class="fw-bold">PEAK!</span></h3>
-
-            <div class="justify-content-end pt-3 justify-content-center d-none d-md-flex text-center py-3">
-                <a href="https://www.instagram.com/promoefficiency/" target="blank">
-                    <li><i class="text-white fs-4 px-2 bi bi-instagram"></i></li>
-                </a>
-                <a href="https://twitter.com/promoefficiency?lang=ar" target="blank">
-                    <li><i class="text-white fs-4 px-2 bi bi-twitter"></i></li>
-                </a>
-                <a href="https://www.linkedin.com/company/promotion-efficiency/mycompany/" target="blank">
-                    <li><i class="text-white fs-4 px-2 bi bi-linkedin"></i></li>
-                </a>
-                <a href="mailto:contact@promoe.com.sa" target="blank">
-                    <li><i class="text-white fs-4 px-2 bi bi-envelope-fill"></i></li>
-                </a>
-                <a href=" https://wa.me/966566642220" target="blank">
-                    <li><i class="text-white fs-4 px-2 bi bi-whatsapp"></i></li>
-                </a>
+            <div class="social-fooer align-items-center justify-content-center d-flex">
+                <i class="px-3 fs-3 bi bi-instagram"></i>
+                <i class="px-3 fs-3 bi bi-twitter"></i>
+                <i class="px-3 fs-3 bi bi-whatsapp"></i>
+                <i class="px-3 fs-3 bi bi-envelope-fill"></i>
             </div>
 
-            <div class="justify-content-end pt-3 justify-content-center d-none d-md-flex text-center">
-                <li><a href="index.html" class="text-white fs-6">Home</a></li>
-                <li class="px-4"><a href="https://efficiencys.com.sa/" class="text-white fs-6">Efficiency Center</a>
-                </li>
-                <li><a href="" class="text-white fs-6">Truck Tracker</a></li>
+            <div class="footer-links mb-5 pt-4 align-items-center justify-content-center d-flex">
+                <li class="px-3"><a href="">Home</a></li>
+                <li class="px-3"><a href="">About</a></li>
+                <li class="px-3"><a href="">Services</a></li>
+                <li class="px-3"><a href="">Contact us</a></li>
             </div>
 
-            <h6 class="pt-4 copyright fs-6">Promotion Efficiency Est. All right reserved. copyright 2021</h6>
+            <div class="w-100 copyright position-absolute text-center">
+                <p>Promotion Efficiency Est. All right reserved. copyright 2021</p>
+            </div>
 
-
+            <div class="footer-imgs">
+                <!-- <img src="assets/imgs/Plrallex/1.png" id='sun' alt="">
+                    <img src="assets/imgs/Plrallex/2.png" id='sahab' alt="">
+                    <img src="assets/imgs/Plrallex/4.png" id='prt3' alt="">
+                    <img src="assets/imgs/Plrallex/3.png" id='prt4' alt="">
+                    <h1 class='fw-bold display-5 position-relative' id="hero-text">Your <span class="fw-bold">HIKE</span> to <span class="fw-bold">PEAK!</span></h1>
+                    <img src="assets/imgs/Plrallex/5.png" id='prt5' alt="">-->
+                <!-- <img src="assets/imgs/Plrallex/7.png" id='prt7' alt=""> -->
+                <!-- <img src="assets/imgs/Plrallex/8.png" id='prt8' alt=""> -->
+                <img src="assets/imgs/Plrallex/9.png" id='prt9' alt="">
+                <img src="assets/imgs/Plrallex/10.png" id='prt10' alt="">
+                <img src="assets/imgs/Plrallex/55.png" id='prt6' alt="">
+            </div>
         </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
-        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
-        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/JS/index.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+        integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+        integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="assets/JS/index.js"></script>
 </body>
 
 </html>
